@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains sample code to operate BLDC (brushless) motors. The sample codes explores both open-loop torque control and position control.
+This folder contains sample code to operate BLDC (brushless) motors to be used as user interfaces. The sample codes explores both open-loop torque control and position control.
 
 ## Hardware Requirements for BLDC motors
 - Arduino board (compatible with SimpleFOC library)
