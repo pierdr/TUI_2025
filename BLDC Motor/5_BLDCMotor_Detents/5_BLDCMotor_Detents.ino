@@ -33,7 +33,7 @@ float current_angle = 0.0f;
 float prev_desired_target = 0.0f;
 
 /***************** DETENTS *****************/
-#define NUM_DETENTS 20.0f
+#define NUM_DETENTS 5.0f
 float detent_angle =  TWO_PI/NUM_DETENTS;
 
 
