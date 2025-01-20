@@ -10,8 +10,8 @@
 
 #include "Motor.h"
 
-#define MOTOR_MIN 512           // Minimum sensor reading
-#define MOTOR_MAX 1023        // Maximum sensor reading
+#define MOTOR_MIN 0           // Minimum sensor reading
+#define MOTOR_MAX 512        // Maximum sensor reading
 #define POSITION_THRESHOLD 5  // Dead zone for position control
 #define FADER_PIN A2          // Analog input for fader position
 #define MOTOR_SPEED_MAX 255   // Maximum motor speed
@@ -28,7 +28,7 @@ void setup() {
   initSerial();
   motor.begin();
   motor.enable();
-  moveToPos(768);
+  moveToPos(300);
 }
 
 void loop() {
